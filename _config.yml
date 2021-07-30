@@ -1,6 +1,6 @@
 full_rebuild: true
-name: Docster Documentation
-author: DigitalMind
+name: Element Project
+author: 由野哉
 version: V 1.0
 encoding: utf-8
 defaults:
