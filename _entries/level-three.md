@@ -1,9 +1,9 @@
 ---
 sectionid: l-3
 sectionclass: h4
-parent-id: section-types
+parent-id: 03-01-01
 number: 3113
-title: Level three
+title: 第三周期
 ---
 A Subsection of a level 3 will look like this
 

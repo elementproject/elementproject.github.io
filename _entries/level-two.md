@@ -1,9 +1,9 @@
 ---
 sectionid: l-2
 sectionclass: h4
-parent-id: section-types
+parent-id: 03-01-01
 number: 3112
-title: Level two
+title: 第二周期
 ---
 A Subsection of a level-2 will look like this
 
