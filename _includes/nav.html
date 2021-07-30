@@ -15,6 +15,16 @@
                                 {% for grandchild in level-3 %}
                                 <li>
                                     <a href="#{{ grandchild.sectionid }}">{{ grandchild.title }}</a>
+                                    {% if grandchild.is-parent %}
+                                    <ul>
+                                        {% assign level-4 = site.entries | where: "parent-id", grandchild.sectionid | sort: "number" %}
+                                        {% for great-grandchild in level-4 %}
+                                        <li>
+                                            <a href="#{{ great-grandchild.sectionid }}">{{ great-grandchild.title }}</a>
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
+                                    {% endif %}
                                 </li>
                                 {% endfor %}
                             </ul>

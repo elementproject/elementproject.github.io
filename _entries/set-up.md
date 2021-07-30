@@ -2,7 +2,7 @@
 sectionid: set-up
 sectionclass: h1
 is-parent: yes
-title: Set Up
+title: 世界观
 number: 2000
 ---
 Setting Docster up is super simple. Just like with all jekyll-sites you just need a GitHub account to host it. Docster is independent of any plugins so the only requirement is a jekyll installation to check the result before pushing.
