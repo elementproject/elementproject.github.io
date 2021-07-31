@@ -16,13 +16,13 @@ body{
 }
 
 .overview{
-    width: 320px;
+    width: 240px;
     font-size: 18px;
 }
 
 .content{
     counter-reset: h1-counter;
-    width: calc(100% - 320px);
+    width: calc(100% - 240px);
     position: absolute;
     right: 0;
     
@@ -40,7 +40,7 @@ body{
 section{
 
     &:last-of-type{
-        padding-bottom: 300px;
+        padding-bottom: 200px;
     }
 
     > p,
